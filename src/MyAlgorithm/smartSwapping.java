@@ -1,4 +1,4 @@
-package BasicAlgorithms;
+package MyAlgorithm;
 
 public class smartSwapping {
 	

@@ -1,4 +1,4 @@
-package BasicAlgorithms;
+package MyAlgorithm;
 
 public class findTwoMaxValue {
 	
@@ -24,7 +24,7 @@ public class findTwoMaxValue {
 
 	public static void main(String[] args) {
 
-		int list[] = { 15, 24, 48, 21, 43, 11, 79, 93 };
+		int list[] = { 1, 3, 5, 6, 4, 7, 34, 10, 5, 0, -2, 11 };
 
 		findTwoMaxValue max = new findTwoMaxValue();
 		max.GetTwoMaxValues(list);
