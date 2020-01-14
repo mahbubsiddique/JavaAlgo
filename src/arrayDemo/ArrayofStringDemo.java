@@ -1,4 +1,4 @@
-package PreReq;
+package arrayDemo;
 
 public class ArrayofStringDemo {
 
