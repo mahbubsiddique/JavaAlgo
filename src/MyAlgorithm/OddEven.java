@@ -1,20 +1,12 @@
-package BasicAlgorithms;
+package MyAlgorithm;
 
 import java.util.Scanner;
 
 public class OddEven {
 	
-	/*
-	 * 9. Identify Odd Even
-Any integer that can be divided exactly by 2 is an even number.
-
-The logic: Check for the remainder when number is divided by 2. If the remainder is 0, the number is even – else odd.
-	 * 
-	 */
+	//Method 1
 	
-	
-	public static void main(String args[]) {
-		 
+	public void oddEven1() {
 		Scanner in= new Scanner(System.in);
 		System.out.println("Please enter number to check even or odd"); 
 		int n=in.nextInt();   
@@ -23,9 +15,18 @@ The logic: Check for the remainder when number is divided by 2. If the remainder
 		} else{
 		System.out.println(+n+" is odd number"); 
 		}
-		in.close();
-	}
+		in.close();		
+	}//end oddEven1
 	
 	
-
-}
+	//Method 2 - using ArrayList
+	
+	
+	public static void main(String args[]) {
+		
+		OddEven oe1 = new OddEven();
+		oe1.oddEven1();
+		 
+	}//end main
+	
+}//end class

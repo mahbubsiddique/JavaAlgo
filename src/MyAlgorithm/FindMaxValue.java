@@ -7,7 +7,8 @@ public class FindMaxValue {
 		//declare integer array assigning list of values
 		int [] values = {3, 1, 9, 5, 2, 8};
 		
-		int max =0;
+		//int max =0;
+		int max = Integer.MIN_VALUE;
 		
 		for (int i=0; i<values.length; i++) {
 			
