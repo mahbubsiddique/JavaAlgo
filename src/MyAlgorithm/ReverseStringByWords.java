@@ -9,12 +9,18 @@ public class ReverseStringByWords {
 		String s = "Hello world";
 		String[] r = s.split("\\s");
 		String reverse = "";
-
+		
+		for(int i=0; i<r.length/2; i++) {
+			reverse=r[i];
+			r[i]=r[r.length-1-i];
+			r[r.length-1-i]=reverse;			
+		}
+/*
 		for (String ss : r) {
 			StringBuilder sb = new StringBuilder(ss);
 			reverse += sb.reverse().toString() + " ";
 		} // end for
-
+*/
 		System.out.println(Arrays.toString(r));
 		System.out.println(reverse);
 		

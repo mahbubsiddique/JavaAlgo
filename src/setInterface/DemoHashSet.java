@@ -7,7 +7,8 @@ public class DemoHashSet {
 
 	public static void main(String[] args) {
 		
-		//A HashSet is a collection of items where every item is unique, and it is found in the java.util package
+		//A HashSet is a collection of items where every item is unique, 
+		//and it is found in the java.util package
 		
 		HashSet<String> hs = new HashSet<String>();
 		hs.add("Tapan");
@@ -18,7 +19,9 @@ public class DemoHashSet {
 		
 		System.out.println(hs);
 		
-		Iterator<String> i=hs.iterator();
+		//System.out.println(hs.contains("Tapan"));
+		
+		Iterator i=hs.iterator();
 		//System.out.println(i.next());
 		//System.out.println(i.next());
 		

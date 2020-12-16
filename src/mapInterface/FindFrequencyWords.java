@@ -10,17 +10,17 @@ public class FindFrequencyWords {
 		String str = "Career Hack is a Hack Career Center located in Astoria New York";
 		String []myStr = str.split("\\s");
 		 
-	      HashMap<String,Integer> charFreqMap = new HashMap<>();
+	      HashMap<String,Integer> strFreqMap = new HashMap<>();
 	      for(int i= 0 ; i< myStr.length ; i++) {
 	    	  String word = myStr[i];
-	         if(charFreqMap.containsKey(word)) {
-	            int count = charFreqMap.get(word);
-	            charFreqMap.put(word,count+1);
+	         if(strFreqMap.containsKey(word)) {
+	            int count = strFreqMap.get(word);
+	            strFreqMap.put(word,count+1);
 	         } else {
-	        	 charFreqMap.put(word,1);
+	        	 strFreqMap.put(word,1);
 	         }
 	      }
-	      System.out.println(charFreqMap);
+	      System.out.println(strFreqMap);
 	   }
 
 }
